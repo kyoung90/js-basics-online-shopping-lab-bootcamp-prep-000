@@ -55,7 +55,7 @@ function removeFromCart(item) {
   // write your code here
   var containsItem = false;
   for(var i = 0; i < cart.length; i++){
-    
+    if(cart[i].containsKey)
   }
   
   if(containsItem === true){
